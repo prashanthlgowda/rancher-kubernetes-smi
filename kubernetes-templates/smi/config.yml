@@ -1,6 +1,6 @@
-name: Dell SMI Microservices
+name: Dell SMI Microservices - Complete Suite
 description: |
-  (Experimental) SMI Service suite
+  (Experimental) SMI Service suite - includes PowerEdge Services 
 version: 1.0.0
 category: Applications
 maintainer: "Katalist Mustang <Prashanth_L_Gowda@dell.com>"
