@@ -1,0 +1,21 @@
+.catalog:
+  name: SMI Microservices
+  version: 1.0.0
+  description: |
+    (Experimental) SMI Microservices.
+  minimum_rancher_version: v0.59.0
+  maintainer: "RackHD Mustang Team <prashanth_l_gowda@dell.com>"
+  uuid: smi-0
+  questions:
+    - variable: "Host IP"
+      description: "Host IP."
+      label: "K8s  name:"
+      required: false
+      default: "localhost"
+      type: "string"
+    - variable: "Registry IP"
+      description: "Registry IP."
+      label: "Registry IP:"
+      required: false
+      default: "localhost"
+      type: "string"
