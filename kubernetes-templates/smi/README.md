@@ -1,2 +1,2 @@
 # rancher-kubernetes-smi
-Demo for Rancher kubernetes catalog
+System Management Integration (SMI) Microservices
