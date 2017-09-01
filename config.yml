@@ -1,0 +1,7 @@
+name: Dell SMI Microservices
+description: |
+  (Experimental) SMI Service suite
+version: 1.0.0
+category: Applications
+maintainer: "Katalist Mustang <Prashanth_L_Gowda@dell.com>"
+projectURL: https://github.com/RackHD

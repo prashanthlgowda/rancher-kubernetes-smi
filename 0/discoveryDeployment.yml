@@ -1,0 +1,19 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: device-discovery
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: device-discovery
+        tier: backend
+        track: stable
+    spec:
+      hostNetwork: true
+      containers:
+        - name: device-discovery
+          image: rackhd/device-discovery:latest
+          ports:
+          - containerPort: 46002	
